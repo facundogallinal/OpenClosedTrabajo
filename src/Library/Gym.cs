@@ -9,6 +9,9 @@ namespace Ucu.Poo.Ocp
     /// </summary>
     public class Gym
     {
+        /// <summary>
+        /// Lista con todas las reglas
+        /// </summary>
         private List<ICanEnter> rules = new List<ICanEnter>()
         {
             new HolidayRule(),
